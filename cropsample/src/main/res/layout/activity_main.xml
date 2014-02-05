@@ -1,0 +1,24 @@
+<LinearLayout
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<TextView
+		android:text="Crop sample"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/textView"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Call CropActivity"
+		android:id="@+id/button"/>
+
+	<ImageView
+		android:layout_width="fill_parent"
+		android:layout_height="500px"
+		android:background="#ff0000"
+		android:id="@+id/imageView"/>
+
+</LinearLayout>
